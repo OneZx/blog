@@ -1,9 +1,9 @@
 ---
 home: true
 heroImage: /hero.png
-actionText: 起步 →
+actionText: Go →
 actionLink: /guide/
-# footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT Licensed | Copyright © 2019 ZXD
 ---
 
 <div style="text-align: center">

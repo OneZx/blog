@@ -1,6 +1,6 @@
 module.exports = {
-  title: "Zxd的技术文档",
-  description: "Document library",
+  title: "Every step counts",
+  description: "一直在路上",
   locales: {
     "/": {
       lang: "zh-CN"
@@ -10,7 +10,7 @@ module.exports = {
   themeConfig: {
     // 导航栏配置
     nav: [
-      { text: "主页", link: "/" },
+      { text: "Home", link: "/" },
       {
         text: "博文",
         items: [
@@ -19,19 +19,10 @@ module.exports = {
           { text: "Web", link: "/web/" }
         ]
       },
-      { text: "关于", link: "/about/" },
+      { text: "MyBlog", link: "https://onezx.github.io" },
       { text: "Github", link: "https://github.com/OneZx" }
     ],
     // 侧边栏配置
-    sidebar: [
-      {
-        title: "入门",
-        children: ["/install/", "get-started/"]
-      },
-      {
-        title: "组件",
-        children: ["/components/button"]
-      }
-    ]
+    sidebar: "auto"
   }
 };

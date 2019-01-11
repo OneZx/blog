@@ -5,6 +5,7 @@ docs/.DS_Store
 # Editor directories and files
 .idea
 .vscode
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
