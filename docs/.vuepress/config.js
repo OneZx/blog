@@ -1,6 +1,7 @@
 module.exports = {
   title: "Every step counts",
   description: "一直在路上",
+  base: "/zxdfe.github.io/",
   locales: {
     "/": {
       lang: "zh-CN"
