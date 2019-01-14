@@ -6,20 +6,20 @@ module.exports = {
       lang: "zh-CN"
     }
   },
-  head: [["link", { rel: "icon", href: `/logo.png` }]],
+  head: [["link", { rel: "icon", href: `/z.png` }]],
   themeConfig: {
     // 导航栏配置
     nav: [
       { text: "Home", link: "/" },
       {
-        text: "博文",
+        text: "2019",
         items: [
-          { text: "Android", link: "/android/" },
-          { text: "ios", link: "/ios/" },
-          { text: "Web", link: "/web/" }
+          { text: "Web", link: "/web/" },
+          { text: "python", link: "/python/" },
+          { text: "Node", link: "/Node/" }
         ]
       },
-      { text: "MyBlog", link: "https://onezx.github.io" },
+      { text: "About", link: "https://onezx.github.io" },
       { text: "Github", link: "https://github.com/OneZx" }
     ],
     // 侧边栏配置
